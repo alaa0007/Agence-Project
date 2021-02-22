@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>EasyTravel - Login</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="img/hotel.webp" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="bg">
+
+  <div class="login-box">
+
+    <h1>Sign In</h1>
+    <form onsubmit="return login()">
+
+      <div class="input">
+        <input type="text" required />
+        <label>Email</label>
+      </div>
+      <div class="input">
+        <input type="password" id="pass" required />
+        <i class="fa fa-eye" id="eye"></i>
+        <label>Password</label>
+      </div>
+      <button type="submit">Sign In</button>
+    </form>
+    <div class="login-box1">
+      <h1>Sign Up</h1>
+      <p class="pSignIn">You are not a member? </br>What are you waiting for click here to join us</p>
+      <form action="Register.html">
+      <button type="submit">Sign Up</button>
+    </form>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    function login() {
+      document.querySelector("button").innerHTML = "Please wite..."
+      document.querySelector("button").style.color = "#eee";
+    }
+    $(document).ready(function() {
+      const pass = $("#pass");
+      $("#eye").click(function() {
+        if (pass.prop('type') == 'password') {
+          $(this).addClass('fa fa-eye-slash');
+          pass.attr('type', 'text');
+        } else {
+          $(this).removeClass('fa fa-eye-slash');
+          $(this).addClass('fa fa-eye');
+          pass.attr('type', 'password');
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

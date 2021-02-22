@@ -1,0 +1,271 @@
+body {
+  font-family: 'Times New Roman', Times, serif, 'Roboto', sans-serif;
+}
+
+body.bg {
+  background-image: url(../img/login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signup-box {
+  position: static;
+  width: 450px;
+  height: 490px;
+  margin-top: 70px;
+  margin-left: 300px;
+  padding: auto;
+  border-radius: 1px;
+  background-color: white;
+  z-index: 1 !important;
+  box-shadow: 0 20px 30px;
+}
+
+.signup-box h1 {
+  padding-top: 25px;
+  padding-left: 95px;
+  color: #555555;
+  font: normal normal normal 50px/60px NSimSun;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.signup-box button {
+  width: 270px;
+  height: 45px;
+  margin-top: -10px;
+  margin-left: 75px;
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.signup-box1 {
+  width: 400px;
+  height: 400px;
+  margin-top: -460px;
+  margin-left: 450px;
+  border-radius: 1px;
+  background-color: rgba(150, 150, 0, 0.6);
+  z-index: 0;
+}
+
+.signup-box1 h1 {
+  padding-top: 100px;
+  padding-left: 95px;
+  color: #FFFFFF;
+  font: normal normal normal 50px/60px NSimSun;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+
+.signup-box1 button {
+  width: 180px;
+  height: 45px;
+  margin-top: 60px;
+  margin-left: 80px;
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 25px;
+}
+.pSignUp{
+  padding-top: 25px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: inherit;
+  color: #222222;
+}
+
+.login-box {
+  position: static;
+  width: 450px;
+  height: 490px;
+  margin-top: 70px;
+  margin-left: 300px;
+  padding: auto;
+  border-radius: 1px;
+  background-color: white;
+  z-index: 1 !important;
+  box-shadow: 0 20px 30px;
+}
+
+.login-box h1 {
+  padding-top: 100px;
+  padding-left: 95px;
+  color: #555555;
+  font: normal normal normal 50px/60px NSimSun;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.login-box1 {
+  width: 400px;
+  height: 400px;
+  margin-top: -405px;
+  margin-left: 450px;
+  border-radius: 1px;
+  background-color: rgba(150, 150, 0, 0.6);
+  z-index: 0;
+}
+
+.login-box1 h1 {
+  padding-top: 100px;
+  padding-left: 95px;
+  color: #FFFFFF;
+  font: normal normal normal 50px/60px NSimSun;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.login-box1 button {
+  width: 180px;
+  height: 45px;
+  margin-top: 40px;
+  margin-left: 80px;
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+.pSignIn{
+  padding-top: 25px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: inherit;
+  color: #222222;
+}
+
+label {
+  color: #FCDD44;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.input {
+  height: 45px;
+  width: 90%;
+  padding-left: 59px;
+  margin: 35px 5%;
+  position: relative;
+}
+
+.input input {
+  width: 94%;
+  height: 100%;
+  border: none;
+  padding-left: 12px;
+  border: 2px solid #555555;
+  border-radius: 25px;
+}
+
+.input label {
+  position: absolute;
+  bottom: 10px;
+  padding-left: 60px;
+  color: #555555;
+  text-align: center;
+  left: 10px;
+  pointer-events: none;
+  font-family: serif;
+}
+
+.input input:focus, .box .input input:valid {
+  border: 2px solid #555555;
+  transition: 0.5s;
+}
+
+.input input:focus~label,
+.input input:valid~label {
+  transform: translateY(-35px);
+  transition: 0.3s;
+  font-size: 18px;
+  color: #222222;
+  font: normal normal normal 20px/20px NSimSun;
+  font-style: oblique;
+  background: rgba(255, 255, 255, 0);
+}
+
+.input #eye {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  font-size: 20px;
+}
+
+
+button {
+  width: 270px;
+  height: 45px;
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 18px;
+  border-radius: 25px;
+}
+
+button:hover {
+  background-color: #444444;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #000000;
+}
+
+.para-2 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: -10px;
+  font-weight: bolder;
+}
+
+.white {
+  color: white;
+}
+
+.para-2 a {
+  font-size: 20px !important;
+  color: #FCDD44;
+  font-weight: lighter;
+}
+
+.para-2 a:focus {
+  font-size: 20px !important;
+  color: #352301 !important;
+  font-weight: lighter;
+}
+
+.para-2 a:hover {
+  font-size: 21px !important;
+  color: #c27e00;
+  font-weight: lighter;
+}
+
+.position {
+  position: fixed;
+  width: 370px;
+  margin-top: 10px;
+}
